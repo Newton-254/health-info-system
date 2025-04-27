@@ -1,4 +1,3 @@
-// backend/models/client.js
 const db = require('../database/database');
 
 const Client = {

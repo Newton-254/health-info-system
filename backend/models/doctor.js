@@ -1,8 +1,6 @@
-// backend/models/doctor.js
 const db = require('../database/database');
 const bcrypt = require('bcrypt');
 
-// Create a new doctor
 const createDoctor = (username, password, callback) => {
     const saltRounds = 10;
     bcrypt.hash(password, saltRounds, (err, hash) => {

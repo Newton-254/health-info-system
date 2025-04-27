@@ -1,4 +1,3 @@
-// backend/models/program.js
 const db = require('../database/database');
 
 const Program = {
